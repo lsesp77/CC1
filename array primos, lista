@@ -1,0 +1,80 @@
+#include <iostream>
+
+using namespace std;
+/*
+int main()
+{
+    int a=5, b=3;
+
+    while (a>b)
+        cout << a << " " << b;
+        a++;
+        b++;
+}
+
+int main()
+{
+    int a = 0;
+
+    for int i=0; i<10; i++
+
+    cout << a << " " << i i
+}
+
+int main()
+{
+int tam;
+cin>>tam;
+int p;
+
+for(int = 0; i< tam/2; i++){
+    p= A[i];
+    A[i] = A[tam-1-i];
+    A[tam-1-i]=p;
+}
+}
+
+#Invertir
+
+int main()
+{
+    int tam, temp;
+    cout<< "Ingrese tamaño: ";
+    cin>>tam;
+    int arreglo[tam];
+    for(int i=0; i< tam; i++){
+        cout<< "Ingrese un valor: ", cin>> arreglo[i];
+    }
+    for (int i=0, j=tam -1; i<j; i++, j--){
+            temp=arreglo[i];
+            arreglo[i]= arreglo[j];
+            arreglo[j]=temp;
+    }
+    cout << "La lista invertida es: ";
+    for(int i = 0; i<tam; i++){
+            cout << arreglo[i]<< " " ;
+    }
+
+    return 0;
+}
+*/
+
+#100 primeros numeros primos
+
+int main()
+{
+   int t,temp;
+   a[t];
+
+    for (int i=2; i<100; i++)
+    {
+        if(  )
+        
+    }
+
+    cout << "Los numeros primos son: ";
+    for(int i = 0; i<t; i++){
+            cout << a[i]<< " " ;
+    }
+    return 0;
+}
