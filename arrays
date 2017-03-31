@@ -1,0 +1,76 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Arreglo normal" << endl;
+
+    int arreglo[4];
+    int a;
+    cout << "Ingresa el valor de a: ";
+    cin >> arreglo[0];
+    cout << "Ingresa el valor de a: ";
+    cin >> arreglo[1];
+    cout << "Ingresa el valor de a: ";
+    cin >> arreglo[2];
+    cout << "Ingresa el valor de a: ";
+    cin >> arreglo[3];
+
+    a=arreglo[0];
+    arreglo[0]=arreglo[3];
+    arreglo[3]=a;
+
+    a=arreglo[1];
+    arreglo[1]=arreglo[2];
+    arreglo[2]=a;
+
+    cout << "El arreglo es: " << arreglo[0] << arreglo[1] << arreglo[2] << arreglo[3] << endl;
+    cout << arreglo[0] << endl;
+    cout << arreglo[1] << endl;
+    cout << arreglo[2] << endl;
+    cout << arreglo[3] << endl;
+
+    cout << "Arreglo con for" << endl;
+
+    int d;
+    int tam;
+    cout << "Ingresa el Tamaño: ";
+    cin >> tam;
+    int arreglo[tam];
+    for (int x=0;x<tam;x++){
+            cout << "Ingresa el valor de " << x << ": ";
+            cin >> arreglo[x];
+    }
+    int b=--tam;
+    for (int a=0;a<tam/2;++a){
+            d=arreglo[a];
+            arreglo[a]=arreglo[b];
+            arreglo[b]=d;
+            --b;
+    }
+
+    cout << "El arreglo es: " << endl;
+    for(int i=0;i<tam;++i){
+        cout << arreglo[i] << endl;
+    }
+
+
+    cout << "suma del arreglo" << endl;
+
+    int tam;
+    cout << "Ingresa el Tamaño: ";
+    cin >> tam;
+    int arreglo[tam];
+    int sum=0;
+    for (int x=0;x<tam;x++){
+            cout << "Ingresa el valor de " << x << ": ";
+            cin >> arreglo[x];
+            sum+=arreglo[x];
+    }
+    cout << "El arreglo es: " << endl;
+    for(int i=0;i<tam;++i){
+        cout << arreglo[i] << endl;
+    }
+    cout<<"La suma del arreglo es: " << sum <<endl;
+}
