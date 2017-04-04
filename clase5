@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std;
+/*
+int main()
+{
+    int d, divisiones;
+    cout << 1 <<" " << "es primo " << "\n";
+    for(int i=2; i<100; i++){
+        d=1;
+        divisiones=0;
+        while(d<=i){
+            if(i%d==0){
+             divisiones++;
+            }
+        d++;
+        }
+        d--;
+
+        if (divisiones == 2)
+        cout << d<<" " << "es primo " << "\n";
+    }
+    return 0;
+}
+
+*/
+
+int main()
+{
+    int d, divisiones,t;
+    
+    
+    cout << 1 <<" " << "es primo " << "\n";
+    for(int i=2; i<t; i++){
+        d=1;
+        divisiones=0;
+        while(d<=i){
+            if(i%d==0){
+             divisiones++;
+            }
+        d++;
+        }
+        d--;
+
+        if (divisiones == 2)
+        cout << d<<" " << "es primo " << "\n";
+    }
+    return 0;
+}
+
