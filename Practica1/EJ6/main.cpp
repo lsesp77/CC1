@@ -16,7 +16,7 @@ int main()
     else if(x=='/')
         res=y/z;
 
-    cout<<b<<a<<c<<" : "<<res;
+    cout<<y<<" "<<x<<" "<<z<<" : "<<res;
 
     return 0;
 
