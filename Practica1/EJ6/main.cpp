@@ -29,8 +29,5 @@ int main()
 
     cout<<y<<" "<<x<<" "<<z<<" : "<<res;
 
-
     return 0;
-
-
 }
