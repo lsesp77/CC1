@@ -3,21 +3,34 @@
 using namespace std;
 
 int main()
+
 {
-    char x; float y,z,res;
+    char x,y,z;
+    float res;
     cout<<"Ingrese el operando y dos numeros:  "; cin>>x>>y>>z;
 
-    if(x=='+')
-        res=y+z;
-    else if(x=='-')
-        res=y-z;
-    else if(x=='*')
-        res=y*z;
-    else if(x=='/')
-        res=y/z;
+    float fy=y-'0';
+    float fz=z-'0';
+
+
+    if(x=='+'){
+
+        res= fy + fz;
+    }
+    else if(x=='-'){
+        res=fy-fz;
+    }
+    else if(x=='*'){
+        res=fy*fz;
+    }
+    else if(x=='/'){
+        res=fy/fz;
+    }
 
     cout<<y<<" "<<x<<" "<<z<<" : "<<res;
 
+
     return 0;
+
 
 }
