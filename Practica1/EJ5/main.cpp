@@ -36,8 +36,8 @@ int main()
         cin>>n;
     }
 
-        while(n==1)
-            cout<<"Finalizado."<<endl;
+       
+    cout<<"Finalizado."<<endl;
 
     return 0;
 }
