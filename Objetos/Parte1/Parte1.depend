@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1494605131 source:d:\cc1\objetos\parte1\main.cpp
+	<iostream>
+	"Vec.h"
+	"Punto1.h"
+
+1494605055 d:\cc1\objetos\parte1\include\vec.h
+	"Punto1.h"
+
+1494605997 source:d:\cc1\objetos\parte1\src\vec.cpp
+	<iostream>
+	"Vec.h"
+
+1494605008 d:\cc1\objetos\parte1\include\punto1.h
+
+1494606013 source:d:\cc1\objetos\parte1\src\punto1.cpp
+	"Punto1.h"
+	<iostream>
+
