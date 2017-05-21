@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void reversa(int arreglo[],int n)
+void reversa(int* arreglo[],int n)
 {
     n--;
     int temp,i=n/2,x=0;
@@ -13,8 +13,8 @@ void reversa(int arreglo[],int n)
          1  4
          2  3
         */
-        temp=arreglo[x];
-        arreglo[x]=arreglo[n];
+        temp=*(arreglo+x);
+        *(arreglo+x)=*(arreglo+n);
         arreglo[n]=temp;
         x++;
         n--;

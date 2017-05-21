@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1494540994 source:c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1494540984 c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\clientes.h
+	<iostream>
+
+1494540724 source:c:\users\israe\desktop\semestre ii\cc i\proyecto final\intentos\intento1\main.cpp
+	<iostream>
+	"Clientes.h"
+
+1494613772 source:c:\users\israe\desktop\ccomp-1\proyecto final\intento1\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1494613772 c:\users\israe\desktop\ccomp-1\proyecto final\intento1\clientes.h
+	<iostream>
+
+1494616155 source:c:\users\israe\desktop\ccomp-1\proyecto final\intento1\main.cpp
+	<iostream>
+	"Clientes.h"
+	<stdlib.h>
+
+1494869341 source:c:\users\israe\desktop\intento1\clientes.cpp
+	"Clientes.h"
+	<iostream>
+
+1494857816 c:\users\israe\desktop\intento1\clientes.h
+	<iostream>
+
+1494869504 source:c:\users\israe\desktop\intento1\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Clientes.h"
+	"Producto.h"
+
+1494868503 c:\users\israe\desktop\intento1\producto.h
+	<iostream>
+
+1494868932 source:c:\users\israe\desktop\intento1\producto.cpp
+	"Producto.h"
+	<iostream>
+
