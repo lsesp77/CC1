@@ -41,12 +41,14 @@
 		<Unit filename="include/Impresoras.h" />
 		<Unit filename="include/Producto.h" />
 		<Unit filename="include/Software.h" />
+		<Unit filename="include/TV.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Audifonos.cpp" />
 		<Unit filename="src/Clientes.cpp" />
 		<Unit filename="src/Impresoras.cpp" />
 		<Unit filename="src/Producto.cpp" />
 		<Unit filename="src/Software.cpp" />
+		<Unit filename="src/TV.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
