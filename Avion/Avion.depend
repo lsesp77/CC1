@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1496420420 source:c:\users\alumno-g\desktop\cc1\avion\main.cpp
+	<iostream>
+	<vector>
+	"Avion.h"
+	"Avion_1.h"
+	"Avion_2.h"
+
+1496420474 c:\users\alumno-g\desktop\cc1\avion\include\avion.h
+
+1496420247 c:\users\alumno-g\desktop\cc1\avion\include\avion_1.h
+	<Avion.h>
+
+1496420253 c:\users\alumno-g\desktop\cc1\avion\include\avion_2.h
+	<Avion.h>
+
+1496420474 source:c:\users\alumno-g\desktop\cc1\avion\src\avion.cpp
+	"Avion.h"
+	<iostream>
+
+1496420382 source:c:\users\alumno-g\desktop\cc1\avion\src\avion_1.cpp
+	"Avion_1.h"
+	<iostream>
+
+1496420408 source:c:\users\alumno-g\desktop\cc1\avion\src\avion_2.cpp
+	"Avion_2.h"
+	<iostream>
+
