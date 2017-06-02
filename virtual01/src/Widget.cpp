@@ -2,5 +2,5 @@
 
 int Widget::f()
 {
-  return 31;
+      return 31;
 }

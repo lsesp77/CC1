@@ -3,6 +3,7 @@
 #include <Widget.h>
 
 class Gadget : public Widget {
+
 public:
     virtual int f();
 };

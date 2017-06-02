@@ -11,6 +11,7 @@ using namespace std;
 
 
 class Torre {
+
 public:
     vector<Avion *> aviones;
     Torre() {}

@@ -1,17 +1,17 @@
 # depslib dependency file v1.0
-1496419150 source:c:\users\alumno-g\desktop\cc1\virtual01\main.cpp
+1496423474 source:c:\users\alumno-g\desktop\cc1\virtual01\main.cpp
 	<iostream>
 	<vector>
 	"widget.h"
 	"gadget.h"
 	"gizmo.h"
 
-1496419133 c:\users\alumno-g\desktop\cc1\virtual01\include\widget.h
+1496423476 c:\users\alumno-g\desktop\cc1\virtual01\include\widget.h
 
-1496418322 c:\users\alumno-g\desktop\cc1\virtual01\include\gadget.h
+1496423081 c:\users\alumno-g\desktop\cc1\virtual01\include\gadget.h
 	<Widget.h>
 
-1496417968 c:\users\alumno-g\desktop\cc1\virtual01\include\gizmo.h
+1496423142 c:\users\alumno-g\desktop\cc1\virtual01\include\gizmo.h
 	<Widget.h>
 
 1496418661 source:c:\users\alumno-g\desktop\cc1\virtual01\src\gadget.cpp
@@ -20,6 +20,6 @@
 1496418686 source:c:\users\alumno-g\desktop\cc1\virtual01\src\gizmo.cpp
 	"Gizmo.h"
 
-1496418702 source:c:\users\alumno-g\desktop\cc1\virtual01\src\widget.cpp
+1496423446 source:c:\users\alumno-g\desktop\cc1\virtual01\src\widget.cpp
 	"Widget.h"
 
