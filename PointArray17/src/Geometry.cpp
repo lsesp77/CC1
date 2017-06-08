@@ -1,7 +1,9 @@
 
-# include "geometry.h"
+# include "Geometry.h"
 # include "Point.h"
 #include <iostream>
+
+using namespace std;
 
 PointArray :: PointArray (){
 size = 0;
@@ -27,6 +29,7 @@ PointArray :: PointArray ( const PointArray & other ) {
 }
 
 PointArray ::~ PointArray () {
+    cout<<"Se borro, we";
     delete [] points ;
 }
 
@@ -34,7 +37,7 @@ void PointArray :: resize ( int newSize ) {
     Point *pts = new Point [ newSize ];
     int minSize = ( newSize > size ? size : newSize );
     for (int i = 0; i < minSize ; i++)
-    pts[i] = points [i];
+        pts[i] = points [i];
     delete [] points ;
     size = newSize ;
     points = pts ;
@@ -57,7 +60,7 @@ void PointArray :: insert ( const int pos , const Point &p) {
 
     for (int i = size - 1; i > pos; i --) {
         points [i] = points [i -1];
-        }
+    }
 
     points [pos ] = p;
  }
