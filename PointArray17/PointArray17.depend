@@ -29,3 +29,16 @@
 1496952363 source:c:\users\wair.esp\downloads\cc1-master\pointarray17\src\point.cpp
 	"Point.h"
 
+1496954220 source:c:\users\wair.esp\desktop\cc1\pointarray17\src\geometry.cpp
+	"Geometry.h"
+	"Point.h"
+	<iostream>
+
+1496756248 c:\users\wair.esp\desktop\cc1\pointarray17\include\geometry.h
+	"Point.h"
+
+1496756248 c:\users\wair.esp\desktop\cc1\pointarray17\include\point.h
+
+1496952363 source:c:\users\wair.esp\desktop\cc1\pointarray17\src\point.cpp
+	"Point.h"
+

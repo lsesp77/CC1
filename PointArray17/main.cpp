@@ -15,13 +15,7 @@ int main()
     <<x.getY()<<endl;
 
 
-
-
-
-
-
-
-
-
+    PointArray pa();
+    PointArray
     return 0;
 }
