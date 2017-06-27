@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1498574217 source:c:\users\israe\desktop\cc1\grafos\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<stdexcept>
+
