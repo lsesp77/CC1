@@ -13,13 +13,24 @@ font-family: Arial;
 border: 1px solid yellow;
 } 
 	</style>
+	<script>
+		
+		function saludar(){
+			var nam = document.getElementById("nombre"); /*Notacion camel aparte guion bajo*/
+			var mensaje = "Hola" + nam.value + "!"; /*Podria no declararse la variable  var mensaje = "Hola amiguito, ji ji ji !" */ /*concatenar*/
+			var cuadro = document.getElementById("cuadro");
+			cuadro.innerText = mensaje;	
+		}
+	</script>	
 	</head>
 	<body style = "background-color: black;">
+		<button onclick = "saludar();"> saludar</button>
+		<input type="text" value="UCSP" id="nombre" />
 		<div class = "cuadro">
 	Hola Amiguito!
 		</div>
-		<div class = "cuadro subtitulo">
-	Terry Hintz CSS Hoja de Estilos en Cascada
+		<div class = "cuadro subtitulo" id = "cuadro">
+	CSS Hoja de Estilos en Cascada
 		</div>
 	</body>
 </html>
